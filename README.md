@@ -37,13 +37,15 @@ This project analyzes champion performance across roles using unfiltered telemet
 ## 📊 Visualizations
 
 ### 1. Champion Performance Heatmap (Power BI)
+The Champion Performance Heatmap presents win rates across five roles (ADC, Jungle, Mid, Support, Top) for all 253 League of Legends champions. Conditional formatting highlights strong role-specific performers, allowing quick identification of top-tier picks. This visual helps uncover role versatility and performance consistency at a glance, making it an effective tool for champion analysis.
 A matrix showing win rates per champion by role with conditional formatting. Makes it easy to:
 - Identify champions that excel in multiple roles
 - Compare role strength across the entire champion pool
 
 ---
 
-### 2. Win Rate vs Pick Rate Scatter Plot (Excel)
+### 2. Win Rate vs Pick Rate Scatter Plot (Power BI)
+This scatter plot visualizes the correlation between pick rate and win rate across 253 League of Legends champions in Patch X.Y. Champions are grouped into three categories: balanced, high-performing niche picks, and low-performing meta picks. The chart reveals minimal correlation between pick rate and win rate (R² ≈ 0), highlighting how popularity doesn’t necessarily equate to performance.
 - Built from SQL export
 - Visualized performance trends and outliers
 - Pick Rate on X-axis, Win Rate on Y-axis
